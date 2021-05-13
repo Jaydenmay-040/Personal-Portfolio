@@ -170,7 +170,7 @@ body {
   max-width: 120px;
   height: auto;
   width: auto;
-  margin-left: 30%;
+  margin-left: -3%;
 }
 
 /* Title */
@@ -178,7 +178,7 @@ body {
   color: #f5f5f5;
   font-size: 27px;
   display: block;
-  margin-left: 24%;
+  margin-left: -3%;
   line-height: 1.2;
 }
 
@@ -186,26 +186,40 @@ body {
   display: block;
   font-weight: 400;
   color: #9e9e9e;
-  margin-left: 33%;
+  margin-left: -2%;
   font-size: 14px;
 }
 
 /* Social-Icon-Links */
 #icon1 {
   font-size: 20px;
-  margin-left: 33%;
-  margin-bottom: 20%;
+  margin-left: -3%;
   margin-top: 5%;
+  color: #8c8f92;
+}
+
+#icon1:hover {
+  color: #b8babc;
 }
 
 #icon2 {
   font-size: 20px;
   margin-left: 5%;
+  color: #8c8f92;
+}
+
+#icon2:hover {
+  color: #b8babc;
 }
 
 #icon3 {
   font-size: 19px;
   margin-left: 5%;
+  color: #8c8f92;
+}
+
+#icon3:hover {
+  color: #b8babc;
 }
 .Site-content {
   background: #20262c;
@@ -342,6 +356,15 @@ label {
   width: 25%;
   color: #aaa;
   text-align: center;
+  margin-left: 13.5%;
+}
+
+#name:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #email {
@@ -352,6 +375,15 @@ label {
   width: 25%;
   color: #aaa;
   text-align: center;
+  margin-left: 13.5%;
+}
+
+#email:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #number {
@@ -362,6 +394,15 @@ label {
   width: 25%;
   color: #aaa;
   text-align: center;
+  margin-left: 13.5%;
+}
+
+#number:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #message {
@@ -371,13 +412,30 @@ label {
   width: 25%;
   color: #aaa;
   text-align: center;
+  margin-left: 13.5%;
+}
+
+#message:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #button {
   background: transparent;
   padding: 10px 20px;
   width: 14%;
-  margin-left: 43%;
+  margin-left: 50%;
+}
+
+#button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 /* Footer */
