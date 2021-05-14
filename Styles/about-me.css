@@ -166,11 +166,10 @@ body {
 
 .profile-image {
   border-radius: 50%;
-  max-height: 120px;
-  max-width: 120px;
-  height: auto;
-  width: auto;
+  height: 137px;
+  width: 137px;
   margin-left: -3%;
+  object-fit: cover;
 }
 
 /* Title */
@@ -243,6 +242,7 @@ body {
   top: -18px;
   bottom: -18px;
   right: -18px;
+  object-fit: cover;
 }
 
 .Section1-text {
@@ -598,3 +598,5 @@ q {
   margin-left: 50%;
 }
 /* /Footer */
+
+/* Mobile Responsive */
