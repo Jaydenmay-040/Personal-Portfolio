@@ -229,7 +229,7 @@ body {
 
 /* Landing Section */
 .Section1 {
-  height: 100vh;
+  height: 200vh;
   display: flex;
   flex-direction: column;
 }
@@ -278,50 +278,54 @@ span {
 }
 
 .card1 {
-  width: 32%;
+  width: 28%;
+  height: 20;
   margin: 1%;
   min-width: 300px;
   display: flex;
   flex-direction: column;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   overflow: hidden;
   padding: 1%;
-  margin-left: 28%;
+  margin-left: 30%;
 }
 
 .card2 {
-  width: 32%;
+  width: 28%;
   margin: 1%;
   min-width: 300px;
   display: flex;
   flex-direction: column;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   overflow: hidden;
   padding: 1%;
 }
 
 .card3 {
-  width: 32%;
+  width: 28%;
   margin: 1%;
   min-width: 300px;
   display: flex;
   flex-direction: column;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   overflow: hidden;
   padding: 1%;
-  margin-left: 28%;
+  margin-left: 30%;
 }
 
 .card-img {
@@ -344,11 +348,11 @@ span {
 }
 
 .button {
-  background: rgba(255, 255, 255, 0.4);
+  /* background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(5.5px);
-  border-radius: 10px;
+  border-radius: 10px; */
   color: black;
   text-decoration: none;
   padding: 10px 20px;
@@ -359,9 +363,9 @@ span {
 
 .button:hover {
   font-size: 1.1em;
-  background: rgba(255, 255, 255, 0.8);
+  /* background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(1.5px);
-  -webkit-backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px); */
 }
 
 .card-heading,
