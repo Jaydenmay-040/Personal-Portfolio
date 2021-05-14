@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/e6eae71e18.js"
       crossorigin="anonymous"
     ></script>
+    <!-- /Script -->
     <!-- CSS -->
     <link rel="stylesheet" href="./Styles/about-me.css" />
   </head>
@@ -48,7 +49,7 @@
         <nav class="nav-bar">
           <ul class="navbar-links">
             <li class="navbar-link">
-              <a href="./about-me.html" id="about-me" class="navbar-anchor"
+              <a href="./index.html" id="about-me" class="navbar-anchor"
                 >About Me <i class="fas fa-chevron-right"></i
               ></a>
             </li>
@@ -101,22 +102,125 @@
                 family as well friends
               </pre>
               <div class="Landing-button">
-                <a class="btn" href="#" target="_self">Download CV</a>
+                <a
+                  class="btn"
+                  href="./Documents/Curriculum Vitae Jayden May.docx"
+                  download
+                  >Download CV</a
+                >
                 <a class="btn2" href="#Section2" target="_parent"> View More</a>
               </div>
             </div>
           </div>
         </section>
         <!-- /Landing Section -->
-        <div id="Section2"></div>
-        <!-- About Section -->
 
+        <!-- Testimonial section -->
+        <div id="Section2"></div>
         <section class="Section2">
           <div class="Section2-text">
-            <h2 class="heading2">Testimo<span>nials</span></h2>
-            <hr />
+            <h2 class="Section2-heading2">Testimo<span>nials</span></h2>
+            <hr class="Section2-hr" />
+          </div>
+          <div class="slideshow-container">
+            <div class="mySlides">
+              <img
+                class="slider-img"
+                src="./Images/thapelo-tsotetsi.jpg"
+                alt="Avatar"
+              />
+              <div class="slider-text">
+                <q>
+                  Jayden has an amazing skill of been able to learn new
+                  technologies quickly. He’s communication skills are
+                  exceptional and has great ability of being able to work within
+                  a team. He has great intellect when it comes to researching
+                  alternative solutions.</q
+                >
+              </div>
+              <p class="name">- Thapelo Tsotetsi</p>
+            </div>
+
+            <div class="mySlides">
+              <img
+                class="slider-img"
+                src="./Images/Brent Lee Johnson (3).JPG"
+                alt="Avatar"
+              />
+              <div class="slider-text">
+                <q
+                  >Jayden May is a tough nut to crack, having him beside me in
+                  class showed me what perseverance can do. He enjoys all the
+                  challenges that comes and still thrives in the end.</q
+                >
+              </div>
+              <p class="name">- Brent lee Johnson</p>
+            </div>
+
+            <div class="mySlides">
+              <img
+                class="slider-img"
+                src="./Images/Jordan Hess (1).JPG"
+                alt="Avatar"
+              />
+              <div class="slider-text">
+                <q
+                  >Jayden always strives to do his best and makes the necassary
+                  sacrifices needed to succeed. He is very adaptable and makes
+                  sure his target are met.</q
+                >
+              </div>
+              <p class="name">- Jordan Hess</p>
+            </div>
+
+            <div class="mySlides">
+              <img
+                class="slider-img"
+                src="./Images/Jason Calvert (2).JPG"
+                alt="Avatar"
+              />
+              <div class="slider-text">
+                <q
+                  >Jayden is an extremely hard worker, I sometimes envy his work
+                  ethic. His work is always original and he has a fine eye for
+                  design. He has an awesome personality and will definitely be
+                  an asset to any company.</q
+                >
+              </div>
+              <p class="name">- Jason Calvert</p>
+            </div>
+
+            <div class="mySlides">
+              <img class="slider-img" src="avatar.png" alt="Avatar" />
+              <div class="slider-text">
+                <q
+                  >I have not failed. I've just found 10,000 ways that won't
+                  work.</q
+                >
+              </div>
+              <p class="name">- omas A. Edison</p>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+
+          <div class="dot-container">
+            <span id="dot1" class="dot" onclick="currentSlide(1)"></span>
+            <span id="dot2" class="dot" onclick="currentSlide(2)"></span>
+            <span id="dot3" class="dot" onclick="currentSlide(3)"></span>
+            <span id="dot4" class="dot" onclick="currentSlide(4)"></span>
+            <span id="dot5" class="dot" onclick="currentSlide(5)"></span>
+          </div>
+        </section>
+        <!-- /Testimonial Section -->
+
+        <!-- About Section -->
+
+        <section class="Section3">
+          <div class="Section3-text">
             <h2 class="heading2">About<span> Me</span></h2>
-            <hr />
+            <hr class="Section3-hr" />
             <div class="row">
               <div class="info-item">
                 <p class="info-p">Age:<span> 18</span></p>
@@ -205,5 +309,6 @@
         document.documentElement.scrollTop = 0;
       }
     </script>
+    <script src="./Scripts/Styles.js"></script>
   </body>
 </html>

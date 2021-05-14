@@ -324,19 +324,149 @@ span {
   background-color: #155ea2;
 }
 
+/* Testimonial Section */
+.Section2-heading2 {
+  margin-left: 17%;
+  font-size: 21px;
+  margin-bottom: 1.5%;
+}
+
+.Section2-hr {
+  width: 4%;
+  margin-left: 54.6%;
+  margin-bottom: 3%;
+}
+/* Slideshow container */
+.slideshow-container {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 51%;
+  margin-left: 34%;
+}
+
+/* Slides */
+.mySlides {
+  content: "";
+  clear: both;
+  padding: 35px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 39%;
+  width: 10%;
+  margin-top: 88px;
+  padding: 60px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  margin-right: 4%;
+  margin-left: -37%;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 22px;
+  margin-bottom: 8%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* The dot/bullet/indicators position */
+#dot1 {
+  margin-left: 19%;
+}
+#dot2 {
+  margin-left: 1%;
+}
+#dot3 {
+  margin-left: 1%;
+}
+#dot4 {
+  margin-left: 1%;
+}
+#dot5 {
+  margin-left: 1%;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Image */
+.slider-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+.slider-text {
+  margin-top: 2%;
+  margin-top: 2%;
+  width: 78%;
+  margin-left: 14%;
+}
+
+/* Add a blue color to the author */
+.name {
+  color: #007ced;
+}
+/* /Testimonial Section */
+
 /* About Section */
 #Section2 {
   margin-bottom: 4%;
 }
 
-.Section2 {
-  height: 100vh;
+.Section3 {
+  height: 80vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
 }
 
-.Section2-text {
+.Section3-text {
   margin-right: -78%;
   display: grid;
   justify-content: flex-end;
@@ -346,11 +476,12 @@ span {
 .heading2 {
   margin-left: 2%;
   font-size: 21px;
+  margin-bottom: 2%;
 }
 
-hr {
-  width: 10%;
-  margin-left: 45%;
+.Section3-hr {
+  width: 6%;
+  margin-left: 45.8%;
   margin-bottom: 3%;
 }
 
@@ -389,6 +520,13 @@ hr {
   font-style: normal;
   line-height: 1.75em;
   color: #a6a7a8;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-bottom: 6%;
 }
 
 .about-p {
@@ -412,6 +550,7 @@ hr {
   padding: 27px 0;
   margin: 0px;
 }
+/* /About Section */
 
 /* Footer */
 .site-footer {
@@ -458,3 +597,4 @@ hr {
   padding-bottom: 1%;
   margin-left: 50%;
 }
+/* /Footer */
