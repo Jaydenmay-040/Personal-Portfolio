@@ -11,7 +11,7 @@ body {
   font-style: normal;
   line-height: 1.75em;
   color: #a6a7a8;
-  background-color: #20262c;
+  background-color: #1d2328;
 }
 
 /* Center the loader */
@@ -227,7 +227,7 @@ body {
 
 /* Resume */
 .Resume {
-  height: 170vh;
+  height: 250vh;
   display: flex;
   flex-direction: column;
 }
@@ -264,6 +264,96 @@ h4 {
 
 span {
   color: white;
+}
+
+/* .info-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#bio-info {
+  margin-left: 27%;
+  font-size: 16px;
+  color: #eeeeee;
+}
+
+.bio-info {
+  flex: 0 0 33.33%;
+  max-width: 19%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.bio-heading {
+  margin-bottom: 1.5%;
+}
+
+.bio-text {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.75em;
+  color: #a6a7a8;
+  text-align: left;
+  margin-bottom: 4%;
+}
+
+#passion-info {
+  margin-left: 5%;
+  font-size: 16px;
+  color: #eeeeee;
+}
+
+.passion-heading {
+  margin-right: 49%;
+  margin-left: 19%;
+  margin-bottom: 1.5%;
+}
+
+.passion-text {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.75em;
+  color: #a6a7a8;
+  margin-right: 32%;
+  margin-left: 34%;
+  text-align: left;
+  margin-bottom: 4%;
+} */
+
+.info-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.contact-info3 {
+  flex: 0 0 33.33%;
+  max-width: 19%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#contact-info3 {
+  margin-left: 27%;
+  font-size: 16px;
+  color: #eeeeee;
+}
+
+#contact-info4 {
+  margin-left: 5%;
+  font-size: 16px;
+  color: #eeeeee;
 }
 
 .Education {

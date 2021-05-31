@@ -312,6 +312,24 @@ p a {
   text-decoration: none;
 }
 
+.copyText {
+  line-height: 25px;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.Txt:hover {
+  color: #a6a7a8;
+}
+
+.Txt {
+  color: #eeeeee;
+}
+
 .icon1 {
   color: #007ced;
   font-size: 25px;

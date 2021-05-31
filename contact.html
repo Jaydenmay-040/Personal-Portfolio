@@ -66,7 +66,7 @@
               ></a>
             </li>
             <li class="navbar-link">
-              <a href="./contact.html" id="contact" class="navbar-anchor"
+              <a href=".//contact.html" id="contact" class="navbar-anchor"
                 >Contact <i class="fas fa-chevron-right"></i
               ></a>
             </li>
@@ -101,16 +101,19 @@
                 <div class="icon2">
                   <i class="fas fa-phone"></i>
                 </div>
-                <p>
+                <!-- <p>
                   <a href="tel: 0629812358">+27 62 981 2358</a>
-                </p>
+                </p> -->
+                <button class="copyText" onclick="copy('+27 62 981 2358')">
+                  <p class="Txt">+27 62 981 2358</p>
+                </button>
               </div>
 
               <div id="contact-info3" class="contact-info1">
                 <div class="icon3">
                   <i class="fas fa-envelope"></i>
                 </div>
-                <p>jaydenmay040@gmail.com</p>
+                <p class="copyText">jaydenmay040@gmail.com</p>
               </div>
             </div>
 
@@ -249,5 +252,6 @@
         document.documentElement.scrollTop = 0;
       }
     </script>
+    <script src="./contact.js"></script>
   </body>
 </html>
