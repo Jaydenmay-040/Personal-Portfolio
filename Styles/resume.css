@@ -125,10 +125,20 @@ body {
   font-size: 18px;
 }
 
+#about-me:hover {
+  color: #007ced;
+  transition: 0.3s all ease-in;
+}
+
 #resume {
   color: #eeeeee;
   text-decoration: none;
   font-size: 18px;
+}
+
+#resume:hover {
+  color: #007ced;
+  transition: 0.3s all ease-in;
 }
 
 #portfolio {
@@ -137,10 +147,20 @@ body {
   font-size: 18px;
 }
 
+#portfolio:hover {
+  color: #007ced;
+  transition: 0.3s all ease-in;
+}
+
 #contact {
   color: #eeeeee;
   text-decoration: none;
   font-size: 18px;
+}
+
+#contact:hover {
+  color: #007ced;
+  transition: 0.3s all ease-in;
 }
 
 #myBtn {
@@ -172,6 +192,11 @@ body {
   object-fit: cover;
 }
 
+.profile-image:hover {
+  box-shadow: 0 0 3px #eeeeee;
+  transition: 0.3s all ease-in;
+}
+
 /* Title */
 .site-title {
   color: #f5f5f5;
@@ -198,7 +223,8 @@ body {
 }
 
 #icon1:hover {
-  color: #b8babc;
+  color: #eeeeee;
+  transition: 0.3s all ease-in;
 }
 
 #icon2 {
@@ -208,7 +234,8 @@ body {
 }
 
 #icon2:hover {
-  color: #b8babc;
+  color: #eeeeee;
+  transition: 0.3s all ease-in;
 }
 
 #icon3 {
@@ -218,7 +245,8 @@ body {
 }
 
 #icon3:hover {
-  color: #b8babc;
+  color: #eeeeee;
+  transition: 0.3s all ease-in;
 }
 
 .Site-content {
@@ -227,7 +255,7 @@ body {
 
 /* Resume */
 .Resume {
-  height: 250vh;
+  height: 270vh;
   display: flex;
   flex-direction: column;
 }
@@ -328,6 +356,8 @@ span {
   margin-bottom: 4%;
 } */
 
+/* First row */
+
 .info-row {
   display: flex;
   flex-wrap: wrap;
@@ -335,26 +365,137 @@ span {
   margin-left: -15px;
 }
 
-.contact-info3 {
+.info {
   flex: 0 0 33.33%;
-  max-width: 19%;
   padding-top: 2%;
   padding-bottom: 3%;
-  text-align: center;
+  text-align: left;
   margin-bottom: 40px;
 }
 
-#contact-info3 {
-  margin-left: 27%;
-  font-size: 16px;
-  color: #eeeeee;
+.bio-heading {
+  margin-bottom: 2.5%;
+  font-size: 22px;
+  color: #9e9e9e;
+  margin-top: 2%;
 }
 
-#contact-info4 {
-  margin-left: 5%;
-  font-size: 16px;
-  color: #eeeeee;
+.bio-hr {
+  width: 9%;
+  margin-left: 0.5%;
+  margin-bottom: 6%;
 }
+
+.bio-text {
+  color: #a6a7a8;
+  font-size: 17px;
+}
+
+#bio-info {
+  margin-left: 31%;
+  font-size: 16px;
+  max-width: 25%;
+  margin-right: 4%;
+  padding-right: 3%;
+}
+
+.passion-heading {
+  margin-bottom: 2.5%;
+  font-size: 22px;
+  color: #9e9e9e;
+}
+
+.passion-hr {
+  width: 9%;
+  margin-left: 0.5%;
+  margin-bottom: 6%;
+}
+
+.passion-text {
+  color: #a6a7a8;
+  font-size: 17px;
+}
+
+#passion-info {
+  margin-left: -3.5%;
+  font-size: 16px;
+  max-width: 29%;
+  border-left: 2px solid #007ced;
+  padding-left: 3%;
+  padding-right: 5%;
+}
+
+/* Second row */
+
+.info_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#passion-board-info {
+  margin-left: 31%;
+  font-size: 16px;
+  max-width: 25%;
+  margin-right: 4%;
+  padding-right: 3%;
+}
+
+.info {
+  flex: 0 0 33.33%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.passion-board-heading {
+  margin-bottom: 2.5%;
+  font-size: 22px;
+  color: #9e9e9e;
+  margin-top: 2%;
+}
+
+.passion-board-hr {
+  width: 9%;
+  margin-left: 0.5%;
+  margin-bottom: 6%;
+}
+
+.passion-board-text {
+  color: #a6a7a8;
+  font-size: 17px;
+  list-style-type: none;
+}
+
+.soft-skills-heading {
+  margin-bottom: 2.5%;
+  font-size: 22px;
+  color: #9e9e9e;
+}
+
+.soft-skills-hr {
+  width: 9%;
+  margin-left: 0.5%;
+  margin-bottom: 6%;
+}
+
+.soft-skills-text {
+  color: #a6a7a8;
+  font-size: 17px;
+  list-style-type: none;
+}
+
+#soft-skills-info {
+  margin-left: -3.5%;
+  font-size: 16px;
+  max-width: 29%;
+  border-left: 2px solid #007ced;
+  padding-left: 3%;
+}
+
+/* Third row */
 
 .Education {
   margin-left: 31%;
@@ -391,12 +532,14 @@ span {
   margin-left: 31%;
   font-size: 16px;
   color: #eeeeee;
+  text-align: left;
 }
 
 #contact-info2 {
   margin-left: 5%;
   font-size: 16px;
   color: #eeeeee;
+  text-align: left;
 }
 
 .date {
@@ -414,23 +557,23 @@ span {
 .Heading4 {
   font-size: 14px;
   color: #a6a7a8;
-  margin-left: -61%;
+  margin-left: 6%;
 }
 
 .h {
   font-size: 18px;
   color: #eeeeee;
-  margin-left: -37%;
+  margin-left: 5%;
 }
 
 .Heading {
   font-size: 18px;
   color: #eeeeee;
-  margin-left: -15%;
+  margin-left: 6%;
 }
 
 .p {
-  margin-left: 5%;
+  margin-left: 6%;
   margin-right: 17%;
   color: #a6a7a8;
   font-size: 15px;
@@ -448,7 +591,7 @@ span {
 .heading4 {
   font-size: 14px;
   color: #a6a7a8;
-  margin-left: 2%;
+  margin-left: 4%;
   width: 31%;
 }
 
@@ -460,7 +603,7 @@ span {
 }
 
 .container-p {
-  margin-left: 1%;
+  margin-left: 5%;
   margin-right: 2%;
   color: #a6a7a8;
   font-size: 15px;
@@ -598,7 +741,9 @@ span {
 .skills-image:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
+  text-shadow: 0 0 3px #5da5d4;
   color: #007ced;
+  transition: 0.3s all ease-in;
 }
 
 /* Float four columns side by side */
@@ -644,6 +789,16 @@ span {
   background-color: #41464b;
 }
 
+.card-heading {
+  margin-top: 5%;
+}
+
+.card-heading:hover {
+  text-shadow: 0 0 3px #5da5d4;
+  color: #007ced;
+  transition: 0.3s all ease-in;
+}
+
 /* Footer */
 .site-footer {
   background-color: #2a3035;
@@ -664,6 +819,11 @@ span {
   padding-bottom: 1%;
 }
 
+#social1:hover {
+  transition: 0.3s all ease-in;
+  color: #eeeeee;
+}
+
 #social2 {
   text-decoration: none;
   font-size: 13px;
@@ -673,6 +833,11 @@ span {
   margin-left: 2%;
 }
 
+#social2:hover {
+  transition: 0.3s all ease-in;
+  color: #eeeeee;
+}
+
 #social3 {
   text-decoration: none;
   font-size: 13px;
@@ -680,6 +845,11 @@ span {
   padding-top: 2%;
   padding-bottom: 1%;
   margin-left: 2%;
+}
+
+#social3:hover {
+  transition: 0.3s all ease-in;
+  color: #eeeeee;
 }
 
 .text {

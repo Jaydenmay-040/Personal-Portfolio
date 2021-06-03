@@ -127,10 +127,20 @@ body {
   font-size: 18px;
 }
 
+#about-me:hover {
+  color: #007ced;
+  transition: 0.3s all ease-in;
+}
+
 #resume {
   color: #eeeeee;
   text-decoration: none;
   font-size: 18px;
+}
+
+#resume:hover {
+  color: #007ced;
+  transition: 0.3s all ease-in;
 }
 
 #portfolio {
@@ -139,10 +149,20 @@ body {
   font-size: 18px;
 }
 
+#portfolio:hover {
+  color: #007ced;
+  transition: 0.3s all ease-in;
+}
+
 #contact {
   color: #eeeeee;
   text-decoration: none;
   font-size: 18px;
+}
+
+#contact:hover {
+  color: #007ced;
+  transition: 0.3s all ease-in;
 }
 
 #myBtn {
@@ -174,6 +194,11 @@ body {
   object-fit: cover;
 }
 
+.profile-image:hover {
+  box-shadow: 0 0 3px #eeeeee;
+  transition: 0.3s all ease-in;
+}
+
 /* Title */
 .site-title {
   color: #f5f5f5;
@@ -200,7 +225,8 @@ body {
 }
 
 #icon1:hover {
-  color: #b8babc;
+  color: #eeeeee;
+  transition: 0.3s all ease-in;
 }
 
 #icon2 {
@@ -210,7 +236,8 @@ body {
 }
 
 #icon2:hover {
-  color: #b8babc;
+  color: #eeeeee;
+  transition: 0.3s all ease-in;
 }
 
 #icon3 {
@@ -220,7 +247,8 @@ body {
 }
 
 #icon3:hover {
-  color: #b8babc;
+  color: #eeeeee;
+  transition: 0.3s all ease-in;
 }
 .Site-content {
   background: #20262c;
@@ -237,6 +265,7 @@ body {
   padding-left: 40px;
   padding-right: 20px;
 }
+
 h1 {
   font-size: 52px;
   font-weight: 700;
@@ -295,12 +324,6 @@ span {
   transition: transform 0.2s;
 }
 
-.card1:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2);
-}
-
 .card2 {
   width: 28%;
   margin: 1%;
@@ -316,12 +339,6 @@ span {
   overflow: hidden;
   padding: 1%;
   transition: transform 0.2s;
-}
-
-.card2:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2);
 }
 
 .card3 {
@@ -342,12 +359,6 @@ span {
   transition: transform 0.2s;
 }
 
-.card3:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2);
-}
-
 .card4 {
   width: 28%;
   margin: 1%;
@@ -363,12 +374,6 @@ span {
   overflow: hidden;
   padding: 1%;
   transition: transform 0.2s;
-}
-
-.card4:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2);
 }
 
 .card-img {
@@ -433,14 +438,6 @@ span {
   margin-left: 0%;
 }
 
-.zoom {
-  padding: 50px;
-  transition: transform 0.2s;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
-
 /* Footer */
 .site-footer {
   background-color: #2a3035;
@@ -461,6 +458,11 @@ span {
   padding-bottom: 1%;
 }
 
+#social1:hover {
+  transition: 0.3s all ease-in;
+  color: #eeeeee;
+}
+
 #social2 {
   text-decoration: none;
   font-size: 13px;
@@ -468,6 +470,11 @@ span {
   padding-top: 2%;
   padding-bottom: 1%;
   margin-left: 2%;
+}
+
+#social2:hover {
+  transition: 0.3s all ease-in;
+  color: #eeeeee;
 }
 
 #social3 {
@@ -479,10 +486,195 @@ span {
   margin-left: 2%;
 }
 
+#social3:hover {
+  transition: 0.3s all ease-in;
+  color: #eeeeee;
+}
+
 .text {
   color: #aaa;
   font-size: 13px;
   padding-top: 2%;
   padding-bottom: 1%;
   margin-left: 50%;
+}
+
+@media screen and (max-width: 360px) {
+  .Section1 {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Site-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+  }
+
+  .profile {
+    background-color: #2e3339;
+    width: 29vw;
+    padding-top: 15%;
+  }
+
+  .nav-bar {
+    width: 29vw;
+    height: 100vh;
+    background-color: #31373d;
+  }
+
+  .navbar-links {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-transform: initial;
+    gap: 20px;
+    margin-right: 5%;
+    padding: 40px;
+  }
+
+  .profile-image {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: -3%;
+    object-fit: cover;
+  }
+
+  .site-title {
+    color: #f5f5f5;
+    font-size: 17px;
+    display: block;
+    margin-left: -3%;
+    line-height: 1.2;
+  }
+
+  .site-subtitle {
+    display: block;
+    font-weight: 400;
+    color: #9e9e9e;
+    margin-left: -2%;
+    font-size: 13px;
+  }
+
+  #icon1 {
+    font-size: 20px;
+    margin-left: -3%;
+    margin-top: 5%;
+    color: #8c8f92;
+  }
+
+  h1 {
+    font-size: 33px;
+    margin-left: 25%;
+  }
+
+  hr {
+    width: 17%;
+    margin-left: 40.6%;
+    margin-bottom: 12%;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin-left: 19%;
+    margin-bottom: 8%;
+  }
+
+  .card-details {
+    max-height: 126px;
+  }
+
+  .card1 {
+    margin: 1%;
+    min-width: 232px;
+    padding: 1%;
+    margin-left: 32%;
+    margin-bottom: 6%;
+  }
+
+  .card2 {
+    margin: 1%;
+    min-width: 232px;
+    padding: 1%;
+    margin-left: 32%;
+    margin-bottom: 6%;
+  }
+
+  .card3 {
+    margin: 1%;
+    min-width: 232px;
+    padding: 1%;
+    margin-left: 32%;
+    margin-bottom: 6%;
+  }
+
+  .card4 {
+    margin: 1%;
+    min-width: 232px;
+    padding: 1%;
+    margin-left: 32%;
+    margin-bottom: 6%;
+  }
+
+  .card-heading {
+    font-size: 17px;
+  }
+
+  .card-subtitle {
+    font-size: 13px;
+    margin-bottom: 1.5%;
+  }
+
+  .button {
+    font-size: 17px;
+  }
+
+  #about-me {
+    font-size: 14px;
+    display: block;
+    width: 199%;
+    margin-bottom: 8%;
+    margin-top: 18%;
+  }
+
+  #resume {
+    font-size: 14px;
+    display: block;
+    width: 199%;
+    margin-bottom: 8%;
+  }
+
+  #portfolio {
+    font-size: 14px;
+    display: block;
+    width: 199%;
+    margin-bottom: 8%;
+  }
+
+  #contact {
+    font-size: 14px;
+    display: block;
+    width: 199%;
+    margin-bottom: 8%;
+  }
+
+  .footer-social {
+    margin-left: 25%;
+  }
+
+  #social1 {
+    padding-top: 2%;
+    padding-bottom: 1%;
+  }
+
+  .text {
+    font-size: 13px;
+    display: block;
+  }
 }
