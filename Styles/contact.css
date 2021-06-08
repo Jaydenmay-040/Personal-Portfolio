@@ -254,7 +254,7 @@ body {
 
 /* Contact Section */
 .Section1 {
-  height: 125vh;
+  height: 135vh;
   display: flex;
   flex-direction: column;
 }
@@ -414,7 +414,6 @@ label {
 
 #email {
   margin-bottom: 2%;
-  margin-bottom: 2%;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   width: 25%;
@@ -432,7 +431,6 @@ label {
 }
 
 #number {
-  margin-bottom: 2%;
   margin-bottom: 2%;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
@@ -485,22 +483,25 @@ label {
 
 /* Footer */
 .site-footer {
-  background-color: #2a3035;
+  background-color: #1d2328;
+  display: flex;
+  flex-direction: row;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 
 .footer-social {
-  margin-left: 25%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  margin-left: 32%;
+  align-items: right;
 }
 
 #social1 {
   text-decoration: none;
   font-size: 13px;
   color: #aaa;
-  padding-top: 2%;
-  padding-bottom: 1%;
+  margin-right: 15%;
 }
 
 #social1:hover {
@@ -512,9 +513,7 @@ label {
   text-decoration: none;
   font-size: 13px;
   color: #aaa;
-  padding-top: 2%;
-  padding-bottom: 1%;
-  margin-left: 2%;
+  margin-right: 15%;
 }
 
 #social2:hover {
@@ -526,9 +525,6 @@ label {
   text-decoration: none;
   font-size: 13px;
   color: #aaa;
-  padding-top: 2%;
-  padding-bottom: 1%;
-  margin-left: 2%;
 }
 
 #social3:hover {
@@ -536,19 +532,21 @@ label {
   color: #eeeeee;
 }
 
+.footer-text {
+  align-items: left;
+  font-size: 13px;
+  width: 16%;
+  margin-left: 37%;
+}
+
 .text {
   color: #aaa;
   font-size: 13px;
-  padding-top: 2%;
-  padding-bottom: 1%;
-  margin-left: 50%;
 }
 
 @media screen and (max-width: 360px) {
   .Section1 {
-    height: 200vh;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
   }
 
   .Site-menu {
@@ -563,6 +561,7 @@ label {
     background-color: #2e3339;
     width: 29vw;
     padding-top: 15%;
+    height: 30vh;
   }
 
   .nav-bar {
@@ -605,6 +604,8 @@ label {
     color: #9e9e9e;
     margin-left: -2%;
     font-size: 13px;
+    margin-bottom: 8%;
+    margin-top: 1%;
   }
 
   #icon1 {
@@ -661,9 +662,13 @@ label {
   }
 
   #contact-info1 {
-    margin-left: 38%;
+    margin-left: 34%;
     font-size: 13px;
-    width: 15%;
+    max-width: 26%;
+  }
+
+  #contact-info2 {
+    max-width: 27%;
   }
 
   .copyText {
@@ -671,6 +676,78 @@ label {
   }
 
   #contact-info3 {
-    margin-left: 45%;
+    margin-left: 43%;
+    max-width: 41%;
+  }
+
+  #name {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    width: 40%;
+    margin-left: 26.5%;
+    margin-bottom: 5%;
+  }
+
+  #email {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    width: 40%;
+    margin-left: 26.5%;
+    margin-bottom: 5%;
+  }
+
+  #number {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    width: 40%;
+    margin-left: 26.5%;
+    margin-bottom: 5%;
+  }
+
+  #message {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    width: 40%;
+    margin-left: 26.5%;
+    margin-bottom: 5%;
+  }
+
+  #button {
+    width: 27%;
+  }
+
+  .footer-social {
+    padding-top: 3%;
+  }
+
+  #social1 {
+    font-size: 11px;
+  }
+
+  #social2 {
+    font-size: 11px;
+  }
+
+  #social3 {
+    font-size: 11px;
+  }
+
+  .footer-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+    width: 26%;
+  }
+
+  .text {
+    font-size: 11px;
+    margin-left: 34%;
+  }
+
+  #loader {
+    left: 64%;
+    height: 40px;
+    width: 40px;
+    animation-duration: 0.8s;
   }
 }
