@@ -668,12 +668,7 @@ span {
   }
 
   .footer-social {
-    margin-left: 25%;
-  }
-
-  #social1 {
-    padding-top: 2%;
-    padding-bottom: 1%;
+    margin-left: 32%;
   }
 
   .text {
@@ -711,8 +706,13 @@ span {
 
   #loader {
     left: 64%;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     animation-duration: 0.8s;
+  }
+
+  .card-img {
+    height: 50%;
+    object-fit: cover;
   }
 }

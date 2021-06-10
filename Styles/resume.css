@@ -359,12 +359,13 @@ span {
 /* Third row */
 
 .Education {
-  margin-left: 31%;
-  margin-bottom: 2%;
+  margin-left: 93%;
+  margin-bottom: 6%;
 }
 
 .Experience {
-  margin-left: 23.5%;
+  margin-left: 70.5%;
+  margin-bottom: 5%;
 }
 
 .row {
@@ -376,9 +377,9 @@ span {
 
 .contact-info1 {
   flex: 0 0 33.33%;
-  max-width: 25%;
-  padding-top: 4%;
-  padding-bottom: 6%;
+  width: 74%;
+  padding-top: 7%;
+  padding-bottom: 11%;
   text-align: center;
   margin-bottom: 40px;
   background: rgba(255, 255, 255, 0.15);
@@ -390,14 +391,15 @@ span {
 }
 
 #contact-info1 {
-  margin-left: 31%;
+  margin-left: 93%;
   font-size: 16px;
   color: #eeeeee;
   text-align: left;
+  width: 80%;
 }
 
 #contact-info2 {
-  margin-left: 5%;
+  margin-left: 76%;
   font-size: 16px;
   color: #eeeeee;
   text-align: left;
@@ -631,7 +633,7 @@ span {
 }
 
 /* Remove extra left and right margins, due to padding in columns */
-.row {
+.row1 {
   margin: 0 -5px;
 }
 
@@ -725,7 +727,7 @@ span {
 
 @media screen and (max-width: 360px) {
   .Resume {
-    height: 180vh;
+    height: 200vh;
   }
 
   .Site-menu {
@@ -836,6 +838,68 @@ span {
 
   #social3 {
     font-size: 11px;
+  }
+
+  h1 {
+    font-size: 33px;
+  }
+
+  hr {
+    width: 16%;
+    margin-left: 37%;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin-left: 25%;
+  }
+
+  .Education {
+    font-size: 20px;
+    margin-left: -2%;
+  }
+
+  .Experience {
+    font-size: 20px;
+    margin-left: 4%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact-info1 {
+    margin-left: 37%;
+    font-size: 16px;
+  }
+
+  #contact-info2 {
+    margin-left: 38%;
+  }
+
+  .contact-info1 {
+    max-width: 52%;
+    padding-top: 4%;
+    padding-bottom: 6%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .right::after {
+    left: -24px;
+  }
+
+  .left::after {
+    left: -14%;
+  }
+
+  .timeline::after {
+    height: 103%;
+  }
+
+  .timeline1::after {
+    height: 99%;
   }
 
   .footer-text {
