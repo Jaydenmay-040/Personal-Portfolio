@@ -341,7 +341,7 @@ span {
   transition: transform 0.2s;
 }
 
-.card3 {
+/* .card3 {
   width: 28%;
   margin: 1%;
   min-width: 300px;
@@ -374,7 +374,7 @@ span {
   overflow: hidden;
   padding: 1%;
   transition: transform 0.2s;
-}
+} */
 
 .card-img {
   height: 100%;
