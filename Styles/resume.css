@@ -114,7 +114,7 @@ body {
   justify-content: center;
   align-items: flex-end;
   text-transform: initial;
-  gap: 20px;
+  gap: 50px;
   margin-right: 5%;
   padding: 40px;
 }
@@ -123,11 +123,27 @@ body {
   color: #eeeeee;
   text-decoration: none;
   font-size: 18px;
+  display: inline-block;
 }
 
 #about-me:hover {
   color: #007ced;
   transition: 0.3s all ease-in;
+}
+
+#about-me::after {
+  content: "";
+  display: block;
+  bottom: 67%;
+  width: 0%;
+  height: 1px;
+  background: #eeeeee;
+  position: absolute;
+  transition: 00.3s linear;
+}
+
+#about-me:hover::after {
+  width: 30%;
 }
 
 #resume {
@@ -141,6 +157,21 @@ body {
   transition: 0.3s all ease-in;
 }
 
+#resume::after {
+  content: "";
+  display: block;
+  bottom: 60%;
+  width: 0%;
+  height: 1px;
+  background: #eeeeee;
+  position: absolute;
+  transition: 00.3s linear;
+}
+
+#resume:hover::after {
+  width: 27%;
+}
+
 #portfolio {
   color: #eeeeee;
   text-decoration: none;
@@ -152,6 +183,21 @@ body {
   transition: 0.3s all ease-in;
 }
 
+#portfolio::after {
+  content: "";
+  display: block;
+  bottom: 53%;
+  width: 0%;
+  height: 1px;
+  background: #eeeeee;
+  position: absolute;
+  transition: 00.3s linear;
+}
+
+#portfolio:hover::after {
+  width: 27%;
+}
+
 #contact {
   color: #eeeeee;
   text-decoration: none;
@@ -161,6 +207,21 @@ body {
 #contact:hover {
   color: #007ced;
   transition: 0.3s all ease-in;
+}
+
+#contact::after {
+  content: "";
+  display: block;
+  bottom: 46%;
+  width: 0%;
+  height: 1px;
+  background: #eeeeee;
+  position: absolute;
+  transition: 00.3s linear;
+}
+
+#contact:hover::after {
+  width: 25%;
 }
 
 #myBtn {

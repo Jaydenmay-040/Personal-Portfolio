@@ -6,3 +6,9 @@ function copy(text) {
   document.execCommand("copy");
   document.body.removeChild(textarea);
 }
+
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}

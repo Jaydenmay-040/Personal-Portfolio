@@ -14,7 +14,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./Styles/contact.css" />
   </head>
-  <body onload="myFunction()" style="margin: 0">
+  <body onload="myFunction1()" style="margin: 0">
     <div id="loader"></div>
     <div style="display: none" id="myDiv" class="animate-bottom">
       <!-- Side Navbar -->
@@ -104,9 +104,17 @@
                 <!-- <p>
                   <a href="tel: 0629812358">+27 62 981 2358</a>
                 </p> -->
-                <button class="copyText" onclick="copy('+27 62 981 2358')">
-                  <p class="Txt">+27 62 981 2358</p>
-                </button>
+
+                <div class="popup" onclick="myFunction()">
+                  <button class="copyText" onclick="copy('+27 62 981 2358')">
+                    <p class="Txt">
+                      +27 62 981 2358
+                      <span class="popuptext" id="myPopup"
+                        >Phone Number Copied</span
+                      >
+                    </p>
+                  </button>
+                </div>
               </div>
 
               <div id="contact-info3" class="contact-info1">
@@ -219,8 +227,8 @@
     <script>
       var myVar;
 
-      function myFunction() {
-        myVar = setTimeout(showPage, 3000);
+      function myFunction1() {
+        myVar = setTimeout(showPage, 1500);
       }
 
       function showPage() {

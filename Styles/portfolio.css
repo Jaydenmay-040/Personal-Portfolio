@@ -116,7 +116,7 @@ body {
   justify-content: center;
   align-items: flex-end;
   text-transform: initial;
-  gap: 20px;
+  gap: 50px;
   margin-right: 5%;
   padding: 40px;
 }
@@ -125,11 +125,27 @@ body {
   color: #eeeeee;
   text-decoration: none;
   font-size: 18px;
+  display: inline-block;
 }
 
 #about-me:hover {
   color: #007ced;
   transition: 0.3s all ease-in;
+}
+
+#about-me::after {
+  content: "";
+  display: block;
+  bottom: 67%;
+  width: 0%;
+  height: 1px;
+  background: #eeeeee;
+  position: absolute;
+  transition: 00.3s linear;
+}
+
+#about-me:hover::after {
+  width: 30%;
 }
 
 #resume {
@@ -143,6 +159,21 @@ body {
   transition: 0.3s all ease-in;
 }
 
+#resume::after {
+  content: "";
+  display: block;
+  bottom: 60%;
+  width: 0%;
+  height: 1px;
+  background: #eeeeee;
+  position: absolute;
+  transition: 00.3s linear;
+}
+
+#resume:hover::after {
+  width: 27%;
+}
+
 #portfolio {
   color: #eeeeee;
   text-decoration: none;
@@ -154,6 +185,21 @@ body {
   transition: 0.3s all ease-in;
 }
 
+#portfolio::after {
+  content: "";
+  display: block;
+  bottom: 53%;
+  width: 0%;
+  height: 1px;
+  background: #eeeeee;
+  position: absolute;
+  transition: 00.3s linear;
+}
+
+#portfolio:hover::after {
+  width: 27%;
+}
+
 #contact {
   color: #eeeeee;
   text-decoration: none;
@@ -163,6 +209,21 @@ body {
 #contact:hover {
   color: #007ced;
   transition: 0.3s all ease-in;
+}
+
+#contact::after {
+  content: "";
+  display: block;
+  bottom: 46%;
+  width: 0%;
+  height: 1px;
+  background: #eeeeee;
+  position: absolute;
+  transition: 00.3s linear;
+}
+
+#contact:hover::after {
+  width: 25%;
 }
 
 #myBtn {
@@ -256,7 +317,7 @@ body {
 
 /* Landing Section */
 .Section1 {
-  height: 170vh;
+  height: 230vh;
   display: flex;
   flex-direction: column;
 }
@@ -340,41 +401,6 @@ span {
   padding: 1%;
   transition: transform 0.2s;
 }
-
-/* .card3 {
-  width: 28%;
-  margin: 1%;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-  background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  overflow: hidden;
-  padding: 1%;
-  margin-left: 30%;
-  transition: transform 0.2s;
-}
-
-.card4 {
-  width: 28%;
-  margin: 1%;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-  background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  overflow: hidden;
-  padding: 1%;
-  transition: transform 0.2s;
-} */
 
 .card-img {
   height: 100%;
