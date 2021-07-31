@@ -20,12 +20,11 @@ body {
   left: 50%;
   top: 50%;
   z-index: 1;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   margin: -76px 0 0 -76px;
-  border: 16px solid #f3f3f3;
+  border: 16px solid #007ced;
   border-radius: 50%;
-  border-top: 16px solid #f3f3f3;
   -webkit-animation: loader-8-1 0.8s cubic-bezier(0.06, 0.01, 0.49, 1.18)
     infinite;
   animation: loader-8-2 0.8s cubic-bezier(0.46, -0.1, 0.27, 1.07) 0.2s infinite;
@@ -54,7 +53,7 @@ body {
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 0.2s;
+  -webkit-animation-duration: 1s;
   animation-name: animatebottom;
   animation-duration: 1s;
 }
@@ -84,6 +83,14 @@ body {
 #myDiv {
   display: none;
   text-align: center;
+}
+
+.top-bar {
+  display: none;
+}
+
+.topnav {
+  display: none;
 }
 
 /* Side Navbar */
@@ -123,7 +130,6 @@ body {
   color: #eeeeee;
   text-decoration: none;
   font-size: 18px;
-  display: inline-block;
 }
 
 #about-me:hover {
@@ -133,17 +139,16 @@ body {
 
 #about-me::after {
   content: "";
-  display: block;
-  bottom: 67%;
   width: 0%;
   height: 1px;
   background: #eeeeee;
   position: absolute;
   transition: 00.3s linear;
+  left: 15%;
 }
 
 #about-me:hover::after {
-  width: 30%;
+  width: 15%;
 }
 
 #resume {
@@ -159,17 +164,16 @@ body {
 
 #resume::after {
   content: "";
-  display: block;
-  bottom: 60%;
   width: 0%;
   height: 1px;
   background: #eeeeee;
   position: absolute;
   transition: 00.3s linear;
+  left: 15%;
 }
 
 #resume:hover::after {
-  width: 27%;
+  width: 15%;
 }
 
 #portfolio {
@@ -185,17 +189,16 @@ body {
 
 #portfolio::after {
   content: "";
-  display: block;
-  bottom: 53%;
   width: 0%;
   height: 1px;
   background: #eeeeee;
   position: absolute;
   transition: 00.3s linear;
+  left: 15%;
 }
 
 #portfolio:hover::after {
-  width: 27%;
+  width: 15%;
 }
 
 #contact {
@@ -211,17 +214,16 @@ body {
 
 #contact::after {
   content: "";
-  display: block;
-  bottom: 46%;
   width: 0%;
   height: 1px;
   background: #eeeeee;
   position: absolute;
   transition: 00.3s linear;
+  left: 15%;
 }
 
 #contact:hover::after {
-  width: 25%;
+  width: 15%;
 }
 
 #myBtn {
