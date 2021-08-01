@@ -17,6 +17,86 @@
   <body onload="myFunction()" style="margin: 0">
     <div id="loader"></div>
     <div style="display: none" id="myDiv" class="animate-bottom">
+      <!-- Top Navbar -->
+      <nav class="top-bar">
+        <div class="headings">
+          <img class="header-img" src="./Images/Jayden May (2).JPG" alt="" />
+          <span
+            id="openNav"
+            class="openNav"
+            style="font-size: 30px; cursor: pointer"
+            onclick="openNav()"
+            >&#9776;</span
+          >
+        </div>
+      </nav>
+      <!-- /Top Navbar -->
+
+      <!-- Second NavBar -->
+      <div id="myTopnav" class="topnav">
+        <a
+          href="javascript:void(0)"
+          id="closebtn"
+          class="closebtn"
+          onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="left">
+          <img class="nav-image" src="./Images/Jayden May (2).JPG" alt="" />
+          <!-- Title -->
+          <h3 class="nav-title">Jayden May</h3>
+          <h5 class="nav-subtitle">Web Developer</h5>
+          <!-- /Title -->
+
+          <!-- Social Icons -->
+          <div class="social-icons">
+            <a id="wApp" href="https://wa.link/ibm957" target="blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a
+              id="gHub"
+              href="https://github.com/Jaydenmay-040?tab=repositories"
+              target="blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              id="net"
+              href="https://app.netlify.com/teams/jaydenmay-040/overview"
+              target="blank"
+              ><span
+                class="iconify"
+                data-icon="simple-icons:netlify"
+                data-inline="false"
+              ></span
+            ></a>
+          </div>
+        </div>
+        <div class="right">
+          <ul class="nav-links">
+            <li class="nav-link">
+              <a href="./index.html" id="aboutMe" class="navbar-anchor"
+                >About Me <i class="fas fa-chevron-right"></i
+              ></a>
+            </li>
+            <li class="nav-link">
+              <a href="./resume.html" id="Resume" class="navbar-anchor"
+                >Resume <i class="fas fa-chevron-right"></i
+              ></a>
+            </li>
+            <li class="nav-link">
+              <a href="./portfolio.html" id="Portfolio" class="navbar-anchor"
+                >Portfolio <i class="fas fa-chevron-right"></i
+              ></a>
+            </li>
+            <li class="nav-link">
+              <a href=".//contact.html" id="Contact" class="navbar-anchor"
+                >Contact <i class="fas fa-chevron-right"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- /Second NavBar -->
       <!-- Side Navbar -->
       <div class="Site-menu">
         <div class="profile">
@@ -90,7 +170,7 @@
             <div class="Section1-text">
               <h4>Junior Frontend-Developer</h4>
               <h1>Hi, I'm<span> Jayden May</span></h1>
-              <pre class="site-p">
+              <p class="site-p">
                 Through hard work and determination I believe that anything is
                 possible. I'm passionate about what I do, I'm always willing to
                 take a challenge and never taking the easy way out. The amount
@@ -98,7 +178,7 @@
                 self-learning is the reason I succeed in each task I recieve.
                 When not coding, I love drawing, painting and spending time with
                 family as well friends
-              </pre>
+              </p>
               <div class="Landing-button">
                 <a
                   class="btn"
