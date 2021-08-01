@@ -1124,11 +1124,18 @@ label {
 }
 
 @media screen and (max-width: 768px) {
+  .top-bar {
+    display: block;
+    background-color: #475c70;
+    width: 100vw;
+    height: 7vh;
+  }
+
   .topnav .closebtn {
     position: absolute;
     top: 4px;
-    right: 3px;
-    font-size: 61px;
+    right: 22px;
+    font-size: 49px;
     margin-left: 50px;
   }
 
@@ -1146,7 +1153,7 @@ label {
   }
 
   #contact-info3 {
-    width: 25%;
+    width: 26%;
   }
 
   #name {
