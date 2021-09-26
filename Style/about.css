@@ -1,0 +1,55 @@
+#about {
+    min-height: 117vh;
+}
+
+.about_heading {
+    font-size: 65px;
+    margin-top: 12%;
+    margin-left: 1%;
+    text-transform: capitalize;
+}
+
+.aboutMe_details {
+    display: flex;
+    flex-direction: row;
+}
+
+.me_img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/Images/img10.png), url(/Images/img11.png);
+    background-size: cover;
+    background-position-x: center;
+    width: 282px;
+    min-height: 64%;
+    position: absolute;
+    right: 13%;
+    margin-top: 9%;
+}
+
+.about_info {
+    margin-top: 9%;
+    width: 46%;
+    margin-left: 7%;
+    font-size: 20px;
+}
+
+.personal-details {
+    list-style: none;
+    width: 46%;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+  
+  
+.personal-detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+  
+.personal-detail:last-of-type {
+    margin: 0;
+}

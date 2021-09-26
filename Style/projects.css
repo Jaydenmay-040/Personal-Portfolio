@@ -1,0 +1,138 @@
+#projects {
+    min-height: 340vh;
+    color: #eeeeee;
+    margin-bottom: 10px;
+}
+
+.project_heading {
+    font-size: 65px;
+    margin-top: 7%;
+    margin-left: 1%;
+    text-transform: capitalize;
+}
+.filter_buttons {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 5%;
+}
+.filter {
+    margin-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+  
+.projects_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  .projects-heading {
+    font-size: clamp(31px, 5vw, 90px);
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    margin-top: 6%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    color: #eeeeee;
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40vw;
+    min-width: 280px;
+    position: relative;
+    background-position: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px;
+    min-height: 350px;
+}
+  
+.project-heading {
+    font-size: clamp(40px, 5vw, 50px);
+    font-weight: 200;
+}
+.project-tool {
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.project-description {
+    font-family: "inter", sans-serif;
+    font-weight: 200;
+    font-size: clamp(20px, 5vw, 22px);
+}
+.project-buttons a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+.project-buttons {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 200;
+    font-size: clamp(20px, 5vw, 22px);
+}
+/* .project1 {
+    background: linear-gradient(rgba(17, 17, 17, 0.68), rgba(17, 17, 17, 0.68)),
+      url(/images/project_images/testimonial.png);
+    background-position-y: center;
+    background-size: cover;
+} */
+  
+.project2 {
+    background: linear-gradient(rgba(17, 17, 17, 0.68), rgba(17, 17, 17, 0.68)),
+      url(/Images/img2.png);
+    background-position-y: center;
+    background-size: cover;
+    background-position-x: center;
+}
+.project3 {
+    background: linear-gradient(rgba(17, 17, 17, 0.68), rgba(17, 17, 17, 0.68)),
+      url(/Images/img1.png);
+    background-position-y: center;
+    background-size: cover;
+    background-position-x: center;
+}
+.project4 {
+    background: linear-gradient(rgba(17, 17, 17, 0.68), rgba(17, 17, 17, 0.68)),
+      url(/Images/img9.png);
+    background-size: cover;
+    background-position-x: center;
+}
+.project5 {
+    background: linear-gradient(rgba(17, 17, 17, 0.68), rgba(17, 17, 17, 0.68)),
+      url(/Images/img5.png);
+    background-position-y: center;
+    background-size: cover;
+    background-position-x: center;
+}
+.project6 {
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)),
+      url(/Images/img8.png);
+    background-position-y: center;
+    background-size: cover;
+    background-position-x: center;
+}
+.project7 {
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)),
+      url(/Images/img7.png);
+    background-position-y: center;
+    background-size: cover;
+    background-position-x: center;
+}
+.project8 {
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)),
+      url(/Images/img4.png);
+    background-position-y: center;
+    background-size: cover;
+    background-position-x: center;
+}

@@ -1,0 +1,66 @@
+#education {
+    min-height: 200vh;
+}
+
+.education_heading {
+    font-size: 65px;
+    margin-top: 10%;
+    margin-left: 1%;
+    text-transform: capitalize;
+}
+
+.year {
+    margin-top: 5%;
+    margin-left: 7%;
+    font-size: 18px;
+}
+
+.subtitle {
+    margin-top: 1%;
+    margin-left: 7%;
+    font-size: 35px;
+}
+
+.education_info {
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 7%;
+    font-size: 20px;
+}
+
+/* EXPERIENCES */
+.experience_heading {
+    font-size: 65px;
+    margin-top: 10%;
+    margin-right: 4%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.experience_year {
+    margin-top: 5%;
+    margin-right: 10%;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.experience_subtitle {
+    margin-top: 1%;
+    margin-right: 10%;
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.experience_info {
+    margin-top: 2%;
+    right: 10%;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    text-align: right;
+    position: absolute;
+}

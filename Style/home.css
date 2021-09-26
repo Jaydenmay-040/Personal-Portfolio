@@ -1,0 +1,35 @@
+#home {
+  min-height: 100vh;
+}
+
+.top_row {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100%;
+}
+
+.heading {
+  font-size: 20px;
+  width: 9%;
+  text-transform: capitalize;
+}
+
+.social_links {
+  position: absolute;
+  left: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 20px;
+  margin-right: 5%;
+  text-transform: capitalize;
+}

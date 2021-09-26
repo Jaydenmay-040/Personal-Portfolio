@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@900&display=swap');
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.bar {
+    background: white;
+    mix-blend-mode: difference;
+    height: 1px;
+  }
+  
+  .bar-top {
+    width: 25px;
+  }
+  
+  .bar-top.move {
+    animation: barMove 0.8s linear infinite;
+  }
+  
+  .bar-middle {
+    width: 20px;
+  }
+  
+  .bar-middle.move {
+    animation: barMove 0.8s 0.1s ease infinite;
+  }
+  
+  .bar-bottom {
+    width: 15px;
+  }
+  
+  .bar-bottom.move {
+    animation: barMove 0.8s 0.2s linear infinite;
+  }
+  
+  @keyframes barMove {
+    from {
+      width: 25px;
+    }
+    to {
+      width: 10px;
+    }
+  }
+
+.navbutton {
+    /* background: rgba(0, 0, 0, 0.5); */
+    background-color: transparent;
+    mix-blend-mode: difference;
+    position: fixed;
+    z-index: 9999;
+    top: 10px;
+    right: 1%;
+    transform: translateX(-50%);
+    transition: 0.3s ease;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 28px;
+    width: 40px;
+  }
+
+  body {
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+
+  .effect {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+  }
+  
+
+  .typing-text {
+    width: 30%;
+    font-size: 50px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+  }
+  
+  .typing-text::after {
+    content: "|";
+    animation: blink ease 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 0;
+    } 50% {
+      opacity: 1;
+    }
+  }
+
+.home {
+  height: 100%;
+}
+
+.top_row {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100%;
+}
+  
+.heading {
+  font-size: 20px;
+}
+
+.social_links {
+  position: absolute;
+  left: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 20px;
+  margin-right: 5%;
+}
+
+.about {
+  margin-top: 70%;
+}
+
+.about_heading {
+  font-size: 50px;
+}

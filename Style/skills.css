@@ -1,0 +1,123 @@
+#skills {
+    min-height: 115vh;
+}
+
+.soft_skills {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.skills_heading {
+    font-size: 50px;
+    margin-top: 12%;
+    margin-right: 14%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.both_skills {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.soft_skills_heading {
+    font-size: 20px;
+    margin-top: 20px;
+    right: 44%;
+    position: absolute;
+}
+
+.soft_skills_info {
+    right: 17%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 60px;
+    text-align: right;
+    width: 31%;
+    flex-wrap: wrap;
+}
+
+.icon_skill {
+    /* font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100; */
+    margin-bottom: 8px;
+    background-color: rgba(17, 17, 17, 0.8);
+    /* background-color: #8d8d8d; */
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+    border: 1px solid #131313;
+    border-radius: 6px;
+}
+
+.soft_skill {
+    background-color: rgba(17, 17, 17, 0.8);
+    /* background-color: #8d8d8d; */
+    width: 187px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+    border: 1px solid #131313;
+    border-radius: 6px;
+    margin-bottom: 2%;
+}
+
+.problem_solving {
+    /* -ms-transform: rotate(90deg);
+    transform: rotate(90deg); */
+    position: absolute;
+    margin-top: 28%;
+}
+
+.communication {
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-top: -13%;
+    margin-left: 38%;
+}
+
+.soft-skill {
+    font-size: 22px;
+}
+
+.skill {
+    font-size: 64px;
+    /* color: rgb(0, 0, 0); */
+    color: #fff;
+}
+
+.img_skill {
+    background-color: #fff;
+    height: 58px;
+}
+
+.technical_skills {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.technical_skills_heading {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 21%;
+    position: absolute;
+}
+
+.technical_skills_info {
+    left: 20%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 60px;
+    text-align: left;
+    width: 21%;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,727 @@
+@media screen and (max-width: 1024px) {
+    .heading {
+        font-size: 17px;
+    }
+    .social_links {
+        left: 68%;
+    }
+    .link {
+        font-size: 17px;
+    }
+    .typing-text {
+        font-size: 55px;
+        width: 45%;
+    }
+    #about {
+        min-height: 140vh;
+    }
+    .about_heading {
+        font-size: 55px;
+    }
+    .me_img {
+        min-height: 79%;
+        right: 10%;
+    }
+    #skills {
+        min-height: 120vh;
+    }
+    .technical_skills_heading {
+        margin-left: 17%;
+    }
+    .communication {
+        margin-top: 18%;
+        margin-right: 0;
+        position: absolute;
+        right: -9%;
+    }
+    .problem_solving {
+        margin-top: 36%;
+    }
+    #education {
+        min-height: 200vh;
+    }
+    .education_heading {
+        font-size: 55px;
+    }
+    .experience_heading {
+        font-size: 55px;
+    }
+    #projects {
+        min-height: 390vh;
+    }
+    .project_heading {
+        font-size: clamp(40px, 5vw, 55px);
+    }
+    #testimonials {
+        min-height: 125vh;
+    }
+    .testimonial_heading {
+        font-size: 55px;
+    }
+    .caption {
+        font-size: 23px;
+    }
+    .contact_container {
+        margin-top: 10%;
+    }
+    .contact_heading {
+        font-size: 55px;
+    }
+    .foot_links {
+        margin-right: 14%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        width: 12%;
+    }
+    .social_links {
+        left: 58%;
+    }
+    .typing-text {
+        font-size: 45px;
+        width: 50%;
+    }
+    #about {
+        min-height: 230vh;
+    }
+    .about_heading {
+        font-size: 45px;
+    }
+    .aboutMe_details {
+        display: flex;
+        flex-direction: column;
+    }
+    .about_info {
+        width: 82%;
+    }
+    .personal-details {
+        width: 81%;
+    }
+    .me_img {
+        right: 31%;
+        margin-top: 70%;
+    }
+    #skills {
+        min-height: 155vh;
+    }
+    .skills_heading {
+        font-size: 40px;
+    }
+    .both_skills {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4%;
+    }
+    .technical_skills_info {
+        width: 41%;
+    }
+    .soft_skills {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        left: 17%;
+        margin-top: 36%;
+        width: 21%;
+    }
+    .creativity {
+        position: absolute;
+    }
+    .problem_solving {
+        margin-top: 114px;
+        position: absolute;
+    }
+    .communication {
+        margin-top: 114%;
+        margin-left: 155px;
+        position: absolute;
+        right: 0;
+        left: 5%;
+    }
+    #education {
+        min-height: 180vh;
+    }
+    .education_heading {
+        font-size: 45px;
+    }
+    .experience_heading {
+        font-size: 45px;
+    }
+    #projects {
+        min-height: 360vh;
+    }
+    .project_heading {
+        font-size: 45px;
+    }
+    #projects {
+        height: auto;
+    }
+    .project {
+        align-self: center;
+        width: 35vw;
+        min-width: 270px;
+        min-height: 300px;
+    }
+    #testimonials {
+        min-height: 100vh;
+    }
+    .testimonial_heading {
+        font-size: 45px;
+    }
+    .testimonial_content {
+        height: 240px;
+    }
+    .img {
+        width: 150px;
+        height: 150px;
+        margin: 6% 10% 0 0;
+    }
+    .name {
+        font-size: 30px;
+    }
+    .caption {
+        font-size: 18px;
+        width: 97%;
+    }
+    .slider_subtitle {
+        font-size: 15px;
+    }
+    .contact_subtitle {
+        font-size: 18px;
+        width: 65%;
+    }
+    .contact_heading {
+        font-size: 45px;
+    }
+    .contact_details {
+        margin-right: 7%;
+        margin-top: 41%;
+    }
+    .details_heading {
+        font-size: 30px;
+    }
+    .phone_no {
+        font-size: 18px;
+    }
+    .email {
+        font-size: 18px;
+    }
+    .icon-3d {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .heading {
+        width: 20%;
+        font-size: 15px;
+    }
+    .social_links {
+        left: 35%;
+    }
+    .link {
+        font-size: 15px;
+    }
+    .typing-text {
+        font-size: 40px;
+        width: 80%;
+    }
+    #about {
+        min-height: 200vh;
+    }
+    .about_heading {
+        font-size: 40px;
+    }
+    .about_info {
+        width: 88%;
+        font-size: 18px;
+    }
+    .personal-detail {
+        font-size: 18px;
+        width: 107%;
+    }
+    .me_img {
+        right: 14%;
+        margin-top: 110%;
+    }
+    #skills {
+        min-height: 150vh;
+    }
+    .technical_skills_info {
+        width: 72%;
+    }
+    .skills_heading {
+        font-size: 35px;
+    }
+    .soft_skills {
+        margin-top: 64%;
+        width: 37%;
+    }
+    .soft_skills_info {
+        right: 53%;
+    }
+    #education {
+        min-height: 170vh;
+    }
+    .education_heading {
+        font-size: 40px;
+    }
+    .year {
+        margin-top: 7%;
+    }
+    .subtitle {
+        margin-top: 2%;
+        font-size: 30px;
+    }
+    .education_info {
+        font-size: 18px;
+        width: 90%;
+    }
+    .experience_heading {
+        font-size: 40px;
+    }
+    .experience_subtitle {
+        margin-top: 2%;
+        font-size: 30px;
+    }
+    .experience_info {
+        font-size: 18px;
+        width: 88%;
+    }
+    #projects {
+        min-height: 570vh;
+    }
+    .project_heading {
+        font-size: 40px;
+    }
+    #testimonials {
+        min-height: 115vh;
+    }
+    .testimonial_heading {
+        font-size: 40px;
+    }
+    .testimonial_content {
+        height: 385px;
+        margin-left: 5%;
+    }
+    .slide {
+        display: flex;
+        flex-direction: column;
+    }
+    .name {
+        display: none;
+    }
+    .img {
+        display: none;
+    }
+    .slider_subtitle {
+        display: none;
+    }
+    .slider_cont {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .caption {
+        width: 95%;
+        margin-bottom: 5%;
+    }
+    .cont_img {
+        display: flex;
+        width: 150px;
+        height: 150px;
+    }
+    .cont_details {
+        margin: 5% 0 0 0;
+    }
+    .cont_name{
+        display: flex;
+        font-size: 25px;
+    }
+    .cont_subtitle {
+        display: flex;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        min-height: 127vh;
+    }
+    .contact_heading {
+        font-size: 40px;
+    }
+    .contact_subtitle {
+        font-size: 18px;
+        width: 90%;
+    }
+    .contact_form {
+        width: 85vw;
+    }
+    .contact_details {
+        margin-left: 7%;
+        margin-top: 8%;
+    }
+    .contact_links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .heading {
+        width: 22%;
+        font-size: 15px;
+    }
+    .social_links {
+        left: 31%;
+    }
+    .typing-text {
+        font-size: 35px;
+        width: 90%;
+    }
+    .about_heading {
+        font-size: 35px;
+    }
+    .about_info {
+        width: 89%;
+        font-size: 17px;
+    }
+    .personal-detail {
+        font-size: 17px;
+        width: 108%;
+    }
+    .me_img {
+        right: 10%;
+        margin-top: 128%;
+    }
+    .skills_heading {
+        font-size: 30px;
+    }
+    .technical_skills_info {
+        width: 80%;
+        left: 11%;
+    }
+    .soft_skills {
+        margin-top: 70%;
+        width: 42%;
+        left: 17%;
+    }
+    .soft_skills_info {
+        right: 87%;
+    }
+    #education {
+        min-height: 150vh;
+    }
+    .education_heading {
+        font-size: 35px;
+    }
+    .subtitle {
+        font-size: 25px;
+    }
+    .experience_heading {
+        font-size: 35px;
+    }
+    .experience_subtitle {
+        font-size: 25px;
+    }
+    #projects {
+        min-height: 560vh;
+    }
+    .project_heading {
+        font-size: 35px;
+    }
+    .project-heading {
+        font-size: clamp(30px, 5vw, 50px);
+    }
+    .project-tool {
+        font-size: 18px;
+    }
+    .project-description {
+        font-size: clamp(18px, 5vw, 22px);
+    }
+    #testimonials {
+        min-height: 120vh;
+    }
+    .testimonial_heading {
+        font-size: 35px;
+    }
+    .testimonial_content {
+        height: 400px;
+    }
+    .contact_heading {
+        font-size: 35px;
+    }
+    .details_heading {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .social_links {
+        display: none;
+    }
+    .heading {
+        width: 27%;
+    }
+    .nav a {
+        font-size: clamp(26px, 5vw, 50px);
+    }
+    #about {
+        min-height: 200vh;
+    }    
+    .me_img {
+        right: 5%;
+        margin-top: 151%;
+        width: 288px;
+    }
+    #skills {
+        min-height: 140vh;
+    }
+    .technical_skills_info {
+        width: 95%;
+        left: 5%;
+    }
+    .soft_skills {
+        margin-top: 82%;
+        width: 49%;
+    }
+    .soft_skills_info {
+        right: 94%;
+    }
+    .soft_skill {
+        width: 165px;
+    }
+    #education {
+        min-height: 160vh;
+    }
+    .project {
+        width: 29vw;
+        min-width: 230px;
+    }
+    #testimonials {
+        min-height: 123vh;
+    }
+    .testimonial_content {
+        height: 420px;
+    }
+    #contact {
+        min-height: 110vh;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .nav a {
+        font-size: clamp(23px, 5vw, 50px);
+    }
+    .typing-text {
+        font-size: 35px;
+        width: 100%;
+    }
+    .me_img {
+        right: 3%;
+        margin-top: 163%;
+        width: 281px;
+    }
+    .icon_skill {
+        width: 85px;
+        height: 85px;
+    }
+    #skills {
+        min-height: 135vh;
+    }
+    .soft_skills_heading {
+        margin-top: 25px;
+        right: 38%;
+        width: 61%;
+    }
+    .soft_skills_info {
+        right: 97%;
+    }
+    .communication {
+        margin-top: 130%;
+        margin-left: 142px;
+    }
+    .year {
+        margin-top: 12%;
+    }
+    #education {
+        min-height: 170vh;
+    }
+    .project {
+        width: 19vw;
+        min-width: 218px;
+    }
+    .testimonial_content {
+        height: 440px;
+    }
+    #contact {
+        min-height: 105vh;
+    }
+    .contact_links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .nav a {
+        font-size: clamp(19px, 5vw, 50px);
+    }
+    .heading {
+        width: 35%;
+    }
+    .typing-text {
+        font-size: 30px;
+    }
+    .about_heading {
+        font-size: 30px;
+    }
+    .about_info {
+        width: 92%;
+        font-size: 16px;
+    }
+    .personal-detail {
+        font-size: 16px;
+        width: 103%;
+    }
+    .me_img {
+        margin-top: 165%;
+        width: 234px;
+    }
+    .me_email {
+        display: none;
+    }
+    #about {
+        min-height: 180vh;
+    }
+    #skills {
+        min-height: 140vh;
+    }
+    .technical_skills_info {
+        width: 109%;
+        left: 14%;
+    }
+    .soft_skills_heading {
+        right: 18%;
+        width: 74%;
+    }
+    .soft_skill {
+        width: 144px;
+        height: 83px;
+    }
+    .soft-skill {
+        font-size: 16px;
+    }
+    .soft_skills {
+        margin-top: 135%;
+    }
+    .communication {
+        margin-top: 153%;
+        margin-left: 132px;
+    }
+    .problem_solving {
+        margin-top: 93px;
+        position: absolute;
+    }
+    .communication {
+        margin-top: 125%;
+        margin-left: 119px;
+    }
+    #education {
+        min-height: 155vh;
+    }
+    .education_heading {
+        font-size: 30px;
+    }
+    .year {
+        margin-top: 11%;
+    }
+    .subtitle {
+        font-size: 20px;
+        margin-top: 3%;
+    }
+    .education_info {
+        font-size: 16px;
+        width: 90%;
+        margin-top: 5%;
+    }
+    .experience_heading {
+        font-size: 30px;
+    }
+    .experience_year {
+        margin-top: 11%;
+    }
+    .experience_subtitle {
+        font-size: 20px;
+        margin-top: 3%;
+    }
+    .experience_info {
+        font-size: 16px;
+        width: 90%;
+        margin-top: 5%;
+    }
+    .project_heading {
+        font-size: 30px;
+    }
+    .filter {
+        margin-bottom: 4%;
+        font-size: 16px;
+    }
+    .project {
+        width: 19vw;
+        min-width: 182px;
+    }
+    .project-heading {
+        font-size: clamp(25px, 5vw, 50px);
+    }
+    .project-tool {
+        font-size: 15px;
+    }
+    .project-description {
+        font-size: clamp(16px, 5vw, 22px);
+    }
+    .testimonial_heading {
+        font-size: 30px;
+    }
+    .caption {
+        width: 99%;
+        margin-bottom: 5%;
+        font-size: 16px;
+    }
+    .cont_name {
+        display: flex;
+        font-size: 20px;
+    }
+    .cont_subtitle {
+        font-size: 15px;
+    }
+    #contact {
+        min-height: 110vh;
+    }
+    .contact_heading {
+        font-size: 30px;
+    }
+    .contact_subtitle {
+        font-size: 16px;
+        width: 90%;
+    }
+    .contact-input {
+        padding: 7px;
+        font-size: 15px;
+    }
+    .details_heading {
+        font-size: 20px;
+    }
+    .phone_no {
+        font-size: 16px;
+    }
+    .email {
+        font-size: 16px;
+    }
+    .footer_title {
+        padding: 11px 0 0 0;
+        font-size: 13px;
+    }
+    .icon-3d {
+        font-size: 17px;
+    }
+}
