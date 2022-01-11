@@ -1,12 +1,6 @@
 #skills {
     min-height: 115vh;
 }
-
-.soft_skills {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .skills_heading {
     font-size: 50px;
     margin-top: 12%;
@@ -15,109 +9,97 @@
     display: flex;
     justify-content: flex-end;
 }
-
-.both_skills {
-    display: flex;
-    flex-direction: row;
-    margin-top: 4%;
-}
-
-.soft_skills_heading {
+.skillsHeading {
     font-size: 20px;
-    margin-top: 20px;
-    right: 44%;
-    position: absolute;
+    margin: 2% 0 2% 0;
 }
-
-.soft_skills_info {
-    right: 17%;
+.soft {
+    margin-right: 10%;
     display: flex;
-    flex-direction: row;
-    position: absolute;
-    margin-top: 60px;
-    text-align: right;
-    width: 31%;
-    flex-wrap: wrap;
+    justify-content: flex-end;
 }
-
+.Skills {
+    margin: 0 0 0 7%;
+}
 .icon_skill {
-    /* font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 100; */
-    margin-bottom: 8px;
-    background-color: rgba(17, 17, 17, 0.8);
-    /* background-color: #8d8d8d; */
-    width: 90px;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 2%;
-    border: 1px solid #131313;
-    border-radius: 6px;
+    margin: 0 35px 0 0;
 }
-
-.soft_skill {
-    background-color: rgba(17, 17, 17, 0.8);
-    /* background-color: #8d8d8d; */
-    width: 187px;
-    height: 104px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 2%;
-    border: 1px solid #131313;
-    border-radius: 6px;
-    margin-bottom: 2%;
-}
-
-.problem_solving {
-    /* -ms-transform: rotate(90deg);
-    transform: rotate(90deg); */
-    position: absolute;
-    margin-top: 28%;
-}
-
-.communication {
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    margin-top: -13%;
-    margin-left: 38%;
-}
-
-.soft-skill {
-    font-size: 22px;
-}
-
 .skill {
-    font-size: 64px;
-    /* color: rgb(0, 0, 0); */
-    color: #fff;
+    font-size: 70px;
 }
-
-.img_skill {
-    background-color: #fff;
-    height: 58px;
+.fa-mysql {
+    font-size: 19px;
+    width: 100%;
+    font-family: sans-serif;
 }
-
-.technical_skills {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.technical_skills_heading {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 21%;
-    position: absolute;
-}
-
 .technical_skills_info {
-    left: 20%;
     display: flex;
-    flex-direction: row;
-    position: absolute;
-    margin-top: 60px;
-    text-align: left;
-    width: 21%;
-    flex-wrap: wrap;
+    margin: 0 0 0 6%;
+    flex-direction: column;
+}
+.mysql, .flask, .firebase, .mongoDB, .postgreSQL {
+    display: grid;
+    place-items: center;
+    /* background: white; */
+    color: white;
+    mix-blend-mode: multiply;
+    width: 100px;
+    height: 94%;
+    border: solid 1.9px;
+    border-radius: 2px;
+    padding: 0 1px;
+    justify-content: center;
+}
+.mysql, .flask, .firebase {
+    width: 50%;
+}
+.mongoDB {
+    width: 60%;
+}
+.column {
+    width: 12%;
+    padding: 10px;
+}
+.row {
+    display: flex;
+    padding: 0 0 30px 0;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.mysql:hover {
+    color: #515056;
+    transition: 1s 0.2s ease;
+}
+.icon_skill:hover {
+    color: #515056;
+    transition: 0.5s 0.2s ease;
+}
+/* SOFT SKILLS */
+.soft_skills_info {
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-right: 14%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    font-size: 20px;
+}
+.Row {
+    display: flex;
+    padding: 0 0 30px 0;
+    width: 85%;
+}
+.Row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.Column {
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    place-items: center;
 }

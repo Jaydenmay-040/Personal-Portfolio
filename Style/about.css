@@ -15,11 +15,11 @@
 }
 
 .me_img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/Images/img10.png), url(/Images/img11.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/Images/Jayden-May.jpg);
     background-size: cover;
     background-position-x: center;
-    width: 282px;
-    min-height: 64%;
+    width: 278px;
+    min-height: 48%;
     position: absolute;
     right: 13%;
     margin-top: 9%;

@@ -19,8 +19,9 @@
         font-size: 55px;
     }
     .me_img {
-        min-height: 79%;
         right: 10%;
+        width: 300px;
+        min-height: 55%;
     }
     #skills {
         min-height: 120vh;
@@ -28,14 +29,18 @@
     .technical_skills_heading {
         margin-left: 17%;
     }
-    .communication {
-        margin-top: 18%;
-        margin-right: 0;
-        position: absolute;
-        right: -9%;
+    .soft_skills_info {
+        margin-right: 12%;
     }
-    .problem_solving {
-        margin-top: 36%;
+    .mysql, .flask, .firebase {
+        width: 70%;
+    }
+    .mongoDB {
+        width: 80%;
+    }
+    .Column {
+        width: 100%;
+        padding: 10px 0;
     }
     #education {
         min-height: 200vh;
@@ -84,7 +89,7 @@
         width: 50%;
     }
     #about {
-        min-height: 230vh;
+        min-height: 190vh;
     }
     .about_heading {
         font-size: 45px;
@@ -104,43 +109,36 @@
         margin-top: 70%;
     }
     #skills {
-        min-height: 155vh;
+        min-height: 120vh;
     }
     .skills_heading {
         font-size: 40px;
     }
-    .both_skills {
-        display: flex;
-        flex-direction: column;
-        margin-top: 4%;
+    .row {
+        width: 100%;
     }
-    .technical_skills_info {
+    .mysql, .flask, .firebase {
+        width: 90%;
+    }
+    .mongoDB {
+        width: 100%;
+    }
+    .Row {
+        width: 110%;
+    }
+    /* .technical_skills_info {
         width: 41%;
-    }
-    .soft_skills {
+    } */
+    /* .soft_skills {
         display: flex;
         justify-content: flex-end;
         position: absolute;
         left: 17%;
         margin-top: 36%;
         width: 21%;
-    }
-    .creativity {
-        position: absolute;
-    }
-    .problem_solving {
-        margin-top: 114px;
-        position: absolute;
-    }
-    .communication {
-        margin-top: 114%;
-        margin-left: 155px;
-        position: absolute;
-        right: 0;
-        left: 5%;
-    }
+    } */
     #education {
-        min-height: 180vh;
+        min-height: 160vh;
     }
     .education_heading {
         font-size: 45px;
@@ -228,7 +226,7 @@
         width: 80%;
     }
     #about {
-        min-height: 200vh;
+        min-height: 170vh;
     }
     .about_heading {
         font-size: 40px;
@@ -248,21 +246,40 @@
     #skills {
         min-height: 150vh;
     }
-    .technical_skills_info {
-        width: 72%;
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .column {
+        padding: 20px;
+        height: 70px;
+    }
+    .mysql, .flask, .firebase {
+        width: 150%;
+    }
+    .mongoDB {
+        width: 195%;
+    }
+    .mongo {
+        margin-right: 6%;
+    }
+    .soft-skill {
+        font-size: 18px;
+    }
+    .Row {
+        padding: 0;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .Column {
+        width: 50%;
     }
     .skills_heading {
         font-size: 35px;
     }
-    .soft_skills {
-        margin-top: 64%;
-        width: 37%;
-    }
-    .soft_skills_info {
-        right: 53%;
-    }
     #education {
-        min-height: 170vh;
+        min-height: 145vh;
     }
     .education_heading {
         font-size: 40px;
@@ -290,13 +307,13 @@
         width: 88%;
     }
     #projects {
-        min-height: 570vh;
+        min-height: auto;
     }
     .project_heading {
         font-size: 40px;
     }
     #testimonials {
-        min-height: 115vh;
+        min-height: 110vh;
     }
     .testimonial_heading {
         font-size: 40px;
@@ -346,7 +363,7 @@
     #contact {
         display: flex;
         flex-direction: column;
-        min-height: 127vh;
+        min-height: 115vh;
     }
     .contact_heading {
         font-size: 40px;
@@ -397,20 +414,30 @@
     .skills_heading {
         font-size: 30px;
     }
-    .technical_skills_info {
-        width: 80%;
-        left: 11%;
+    .fa-mysql {
+        font-size: 17px !important;
     }
-    .soft_skills {
-        margin-top: 70%;
-        width: 42%;
-        left: 17%;
+    .skill {
+        font-size: 65px;
+    }
+    .technical_skills_info {
+        margin: 0 0 0 0;
+    }
+    .soft-skill {
+        font-size: 17px;
+    }
+    .Row {
+        width: 120%;
     }
     .soft_skills_info {
-        right: 87%;
+        margin-right: 0%;
+    }
+    .soft_skills_info {
+        margin-right: 0;
+        margin-left: 6%;
     }
     #education {
-        min-height: 150vh;
+        min-height: 135vh;
     }
     .education_heading {
         font-size: 35px;
@@ -425,7 +452,7 @@
         font-size: 25px;
     }
     #projects {
-        min-height: 560vh;
+        min-height: auto;
     }
     .project_heading {
         font-size: 35px;
@@ -440,13 +467,16 @@
         font-size: clamp(18px, 5vw, 22px);
     }
     #testimonials {
-        min-height: 120vh;
+        min-height: 105vh;
     }
     .testimonial_heading {
         font-size: 35px;
     }
     .testimonial_content {
         height: 400px;
+    }
+    #contact {
+        min-height: 105vh;
     }
     .contact_heading {
         font-size: 35px;
@@ -467,7 +497,7 @@
         font-size: clamp(26px, 5vw, 50px);
     }
     #about {
-        min-height: 200vh;
+        min-height: 165vh;
     }    
     .me_img {
         right: 5%;
@@ -475,37 +505,51 @@
         width: 288px;
     }
     #skills {
-        min-height: 140vh;
+        min-height: 195vh;
     }
-    .technical_skills_info {
-        width: 95%;
-        left: 5%;
+    .mysql, .flask, .firebase {
+        width: 145%;
     }
-    .soft_skills {
-        margin-top: 82%;
-        width: 49%;
+    .postgreSQL {
+        width: 170%;
+        padding: 0 5px;
+    }
+    .mongoDB {
+        width: 160%;
+    }
+    /* .mongo {
+        margin-right: 4%;
+    } */
+    .row {
+        width: 70%;
+        margin-right: 10%;
+    }
+    .column {
+        width: 26%;
+        padding: 20px 17px;
     }
     .soft_skills_info {
-        right: 94%;
+        margin-right: 0;
+        margin-left: 17%;
     }
-    .soft_skill {
-        width: 165px;
+    .Column {
+        place-items: flex-start;
     }
     #education {
-        min-height: 160vh;
+        min-height: 135vh;
     }
     .project {
         width: 29vw;
         min-width: 230px;
     }
     #testimonials {
-        min-height: 123vh;
+        min-height: 105vh;
     }
     .testimonial_content {
         height: 420px;
     }
     #contact {
-        min-height: 110vh;
+        min-height: 105vh;
     }
 }
 
