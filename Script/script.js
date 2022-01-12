@@ -155,6 +155,24 @@ let projects = [
     liveURL: "https://replit.com/@Jaydenmay040/tkinter-adding-numbers#.replit",
     githubURL: "https://github.com/Jaydenmay-040/tkinter-adding-numbers",
   },
+  {
+    heading: "Vuejs Live Weather App",
+    class: "project9",
+    techStack: "Vuejs",
+    description:
+      " A site made with a quasar and vuejs to provide weather conditions, current location, search bar and a functional day or night background changer according to current time",
+    liveURL: "https://vuejs-live-weather-app.netlify.app/#/",
+    githubURL: "https://github.com/Jaydenmay-040/Weather_App",
+  },
+  {
+    heading: "CSS Cigarette",
+    class: "project10",
+    techStack: "HTML/CSS",
+    description:
+      " A simple site made with HTML and CSS that contains a cigarette and neon text",
+    liveURL: "https://cigarette-css.netlify.app/",
+    githubURL: "https://github.com/Jaydenmay-040/cigarette_css",
+  },
 ];
 
 function newCard(card) {
