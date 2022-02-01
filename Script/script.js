@@ -1,3 +1,8 @@
+// LOADER FUNCTION
+window.addEventListener("load", () => {
+  document.querySelector(".loaderContainer").classList.add("hide");
+});
+
 function togglemenu() {
     document.querySelectorAll(".nav-container").forEach((item) => {
       item.classList.toggle("show-menu");

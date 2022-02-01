@@ -1,4 +1,21 @@
+@media screen and (max-width: 2560px) {
+    .loader {
+        padding: 700px 0 0 450px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .loader {
+        padding: 350px 0 0 250px;
+    }
+}
 @media screen and (max-width: 1024px) {
+    /* .loader {
+        padding: 350px 0 0 250px;
+    } */
+    .loader {
+        padding: 310px 0 0 195px;
+        font-size: 29px;
+    }
     .heading {
         font-size: 17px;
     }
@@ -78,6 +95,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .loader {
+        padding: 320px 0 0 150px;
+        font-size: 19px;
+    }
     .heading {
         width: 12%;
     }
@@ -211,6 +232,10 @@
 }
 
 @media screen and (max-width: 425px) {
+    .loader {
+        padding: 312px 0 0 82px;
+        font-size: 15px;
+    }
     .heading {
         width: 20%;
         font-size: 15px;
@@ -385,6 +410,10 @@
 }
 
 @media screen and (max-width: 375px) {
+    .loader {
+        padding: 312px 0 0 82px;
+        font-size: 14px;
+    }
     .heading {
         width: 22%;
         font-size: 15px;
@@ -487,6 +516,10 @@
 }
 
 @media screen and (max-width: 320px) {
+    .loader {
+        padding: 312px 0 0 63px;
+        font-size: 13px;
+    }
     .social_links {
         display: none;
     }
@@ -554,6 +587,10 @@
 }
 
 @media screen and (max-width: 300px) {
+    .loader {
+        padding: 312px 0 0 56px;
+        font-size: 12px;
+    }
     .nav a {
         font-size: clamp(23px, 5vw, 50px);
     }
@@ -607,6 +644,10 @@
 }
 
 @media screen and (max-width: 250px) {
+    .loader {
+        padding: 312px 0 0 47px;
+        font-size: 9px;
+    }
     .nav a {
         font-size: clamp(19px, 5vw, 50px);
     }
