@@ -178,6 +178,15 @@ let projects = [
     liveURL: "https://cigarette-css.netlify.app/",
     githubURL: "https://github.com/Jaydenmay-040/cigarette_css",
   },
+  {
+    heading: "New Portfolio",
+    class: "project11",
+    techStack: "HTML/CSS",
+    description:
+      " A parallax portfolio currently in the making.",
+    liveURL: "https://jayden-may-portfolio-ii.netlify.app/",
+    githubURL: "https://github.com/Jaydenmay-040/personalPortfolio",
+  },
 ];
 
 function newCard(card) {
